@@ -1,7 +1,4 @@
-# Creating the README.md file with the provided content
-
-content = """
-# Project: Colombian Flag Timer
+# Project: Timer 🕐
 
 ## Languages / Langues / Idiomas
 - [English](#english) 🇬🇧
