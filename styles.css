@@ -1,6 +1,9 @@
 body{
     background-image: url(background.jpg);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     margin: 0;
 }
 
@@ -16,4 +19,8 @@ body{
     font-size: 6.5rem;
     font-weight: bold;
     text-align: center;
+    color: white;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    background-color: hsla(0, 0%, 100%, 0.1);
 }
