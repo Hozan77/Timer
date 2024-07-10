@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url(background.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -7,14 +7,14 @@ body{
     margin: 0;
 }
 
-#clock-container{
+#clock-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-#clock{
+#clock {
     font-family: monospace;
     font-size: 6.5rem;
     font-weight: bold;
@@ -23,4 +23,20 @@ body{
     backdrop-filter: blur(5px);
     width: 100%;
     background-color: hsla(0, 0%, 100%, 0.1);
+}
+
+#hours {
+    color: rgb(255,205,0);
+}
+
+#minutes {
+    color: rgb(0,48,135);
+}
+
+#seconds {
+    color: rgb(200,16,46);
+}
+
+.colon {
+    color: white;
 }
